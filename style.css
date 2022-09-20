@@ -445,7 +445,7 @@ svg{
 
 /* Media Queries */
 
-@media (max-width: 767px){
+@media (max-width: 968px){
   .section{
     width: 100%;
   }
@@ -470,9 +470,6 @@ svg{
   }
   .hero-second-subheading{
     font-size: 18px;
-  }
-  .intro-text {
-    text-align: center;
   }
 }
 
