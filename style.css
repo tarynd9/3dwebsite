@@ -24,30 +24,30 @@ svg{
 
 :root{
   /* Light Theme Variables */
-  --color-text-light: #333332;
-  --color-background-light: #FAF4E5;
-  --color-pink-light: #e5a1aa;
-  --color-green-light: #7AD0AC;
-  --color-blue-light: #8395CD;
+  --color-text-light: #353635;
+  --color-background-light: #FFFFFF;
+  --color-dell-blue: #e5a1aa;
+  --color-midnight-blue: #00447C;
+  --color-blue-light: #41B6E6;
 
   /* Dark Theme Variables */
-  --color-text-dark: #FAF4E5;
-  --color-background-dark: #8395CD;
+  --color-text-dark: #FFFFFF;
+  --color-background-dark: #353635;
 }
 
 .light-theme{
   --color-text: var(--color-text-light);
   --color-background: var(--color-background-light);
-  --color-pink: var(--color-pink-light);
-  --color-green: var(--color-green-light);
+  --color-dell: var(--color-dell-blue);
+  --color-midnight: var(--color-midnight-blue);
   --color-blue: var(--color-blue-light);
 }
 
 .dark-theme{
   --color-text: var(--color-text-dark);
   --color-background: var(--color-background-dark);
-  --color-pink: var(--color-text-dark);
-  --color-green: var(--color-text-dark);
+  --color-dell: var(--color-text-dark);
+  --color-midnight: var(--color-text-dark);
   --color-blue: var(--color-text-dark);
 }
 
@@ -97,7 +97,7 @@ svg{
   height: 10px;
   border-radius: 50%;
   margin: 6px;
-  background-color: var(--color-pink-light);
+  background-color: var(--color-dell-blue);
   animation: load 1s ease-in-out infinite;
 }
 
@@ -205,7 +205,7 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-pink);
+  background-color: var(--color-dell);
   border-radius: 999px;
   margin: 0px 16px;
   border: none;
@@ -279,7 +279,7 @@ svg{
 .progress-bar{
   height: 100vh;
   width: 100%;
-  background-color: var(--color-pink);
+  background-color: var(--color-dell);
   transform-origin: top center;
   transform: scaleY(1);
 }
@@ -289,12 +289,12 @@ svg{
 .section-intro-wrapper{
   position: relative;
   padding: 20% 5%;
-  border-bottom: 2px solid var(--color-pink);
+  border-bottom: 2px solid var(--color-dell);
   padding-bottom: 400px;
 }
 
 .section-intro-wrapper:nth-child(3){
-  border-bottom: 2px solid var(--color-green);
+  border-bottom: 2px solid var(--color-midnight);
 }
 
 .section-detail-wrapper{
@@ -320,7 +320,7 @@ svg{
 /* Fancy Decoration Part of Section */
 .section-title{
   position: relative;
-  color: var(--color-pink)
+  color: var(--color-dell)
 }
 
 .section-title-text{
@@ -331,7 +331,7 @@ svg{
   transform: skewY(25deg);
   z-index: 5;
   text-transform: uppercase;
-  color: var(--color-pink);
+  color: var(--color-dell);
 }
 
 .styleOne,
@@ -342,7 +342,7 @@ svg{
   width: 100%;
   max-width: 278px;
   height: 60px;
-  border: 1px solid var(--color-pink);
+  border: 1px solid var(--color-dell);
   transform-origin: left;
   transform: skewY(-25deg);
 }
@@ -358,14 +358,14 @@ svg{
 .styleThree{
   top: 80px;
   transform: skewY(25deg);
-  background-color: var(--color-pink);
+  background-color: var(--color-dell);
 }
 
 .section-number{
   position: absolute;
   bottom: 15px;
   right: 0;
-  color: var(--color-pink);
+  color: var(--color-dell);
   font-size: 24px;
 }
 
@@ -431,15 +431,15 @@ svg{
 }
 
 .green-text{
-  color: var(--color-green)
+  color: var(--color-midnight)
 }
 
 .green-border{
-  border-color: var(--color-green);
+  border-color: var(--color-midnight);
 }
 
 .green-background{
-  background-color: var(--color-green);
+  background-color: var(--color-midnight);
 }
 
 
